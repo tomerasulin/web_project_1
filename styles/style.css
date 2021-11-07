@@ -268,6 +268,8 @@
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding: 60px 0 40px;
+  display: flex;
+  align-items: stretch;
 }
 
 .footer__columns {
@@ -276,6 +278,7 @@
   flex-direction: row;
   width: 90%;
   margin: auto;
+  min-height: 250px;
 }
 
 .footer__column_content_copyright {
