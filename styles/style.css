@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -76,6 +85,11 @@
   top: 64px;
   background-color: #2f80ed;
   z-index: 0;
+  transform: rotate(-15deg);
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
