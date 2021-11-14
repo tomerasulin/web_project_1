@@ -140,6 +140,51 @@
   font-weight: bold;
 }
 
+.techniques {
+  margin: 100px auto;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 240px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.cards :nth-of-type(3n){
+  margin-right: 0;
+}
+
+.cards__image {
+  height: 160px;
+  width: 160px;
+  margin: 0 40px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin-top: 43px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description {
+  margin-top: 16px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
 .digits {
   margin: 100px auto;
 }
