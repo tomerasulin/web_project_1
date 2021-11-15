@@ -320,7 +320,6 @@
   margin-top: 100px;
   padding-top: 105px;
   background-color: #f2f2f2;
-
 }
 
 .khan__container {
@@ -373,7 +372,7 @@
   margin-right: 48px;
 }
 
-.khan__buy-link{
+.khan__buy-link {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
@@ -446,19 +445,19 @@
 }
 
 .resources__logo-tedED {
-  background-image: url(../images/images_sprint-2/logo/resources-tedED.png);
+  background-image: url(../images/logo/resources-tedED.png);
 }
 
 .resources__logo-Medium {
-  background-image: url(../images/images_sprint-2/logo/resources-Medium.png);
+  background-image: url(../images/logo/resources-Medium.png);
 }
 
 .resources__logo-goodreads {
-  background-image: url(../images/images_sprint-2/logo/resources-goodreads.png);
+  background-image: url(../images/logo/resources-goodreads.png);
 }
 
 .resources__logo-dezeen {
-  background-image: url(../images/images_sprint-2/logo/resources-dezeen.png);
+  background-image: url(../images/logo/resources-dezeen.png);
 }
 .footer {
   min-height: 350px;
