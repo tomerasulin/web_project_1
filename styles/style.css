@@ -66,6 +66,11 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.3s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -158,7 +163,7 @@
   margin-right: 100px;
 }
 
-.cards :nth-of-type(3n){
+.cards :nth-of-type(3n) {
   margin-right: 0;
 }
 
@@ -183,6 +188,29 @@
   font-size: 18px;
   font-weight: normal;
   text-align: center;
+}
+
+.video {
+  margin: 100px auto 0;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+  z-index: -1;
 }
 
 .digits {
@@ -260,6 +288,11 @@
   text-decoration: none;
   color: #2f80ed;
   z-index: 1;
+  transition: opacity 0.3s linear;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .feynman__title {
@@ -281,6 +314,76 @@
   font-weight: normal;
   z-index: 1;
   position: relative;
+}
+
+.khan {
+  margin-top: 100px;
+  padding-top: 105px;
+  background-color: #f2f2f2;
+
+}
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 36px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin: 10px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+
+.khan__buy-link{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  transition: opacity 0.3s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
@@ -322,6 +425,41 @@
   z-index: -1;
 }
 
+.resources {
+  margin: 100px auto 0;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  background-position: center;
+  background-size: contain;
+}
+
+.resources__logo-tedED {
+  background-image: url(../images/images_sprint-2/logo/resources-tedED.png);
+}
+
+.resources__logo-Medium {
+  background-image: url(../images/images_sprint-2/logo/resources-Medium.png);
+}
+
+.resources__logo-goodreads {
+  background-image: url(../images/images_sprint-2/logo/resources-goodreads.png);
+}
+
+.resources__logo-dezeen {
+  background-image: url(../images/images_sprint-2/logo/resources-dezeen.png);
+}
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
@@ -382,6 +520,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition: opacity 0.2s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icons {
