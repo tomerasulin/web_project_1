@@ -8,29 +8,29 @@
   background-color: transparent;
   margin-top: 5px;
   font-size: 14px;
-  color: white;
+  color: black;
 }
 
 .form__item:focus {
-  outline-color: white;
+  outline-color: black;
 }
 
 .form__item::-webkit-input-placeholder {
-  color: white;
+  color: black;
 }
 
 .form__item::-moz-placeholder {
-  color: white;
+  color: black;
 }
 
 .form__item:-ms-input-placeholder {
-  color: white;
+  color: black;
 }
 
 .form__item::-ms-input-placeholder {
-  color: white;
+  color: black;
 }
 
 .form__item::placeholder {
-  color: white;
+  color: black;
 }
