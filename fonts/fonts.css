@@ -1,8 +1,8 @@
 @font-face {
   font-family: "nunitoblack_italic";
-  src: url(../fonts/webfontkit-20211117-095234/nunito-blackitalic-webfont.woff2)
+  src: url(../fonts/nunito-blackitalic-webfont.woff2)
       format("woff2"),
-    url(../fonts/webfontkit-20211117-095234/nunito-bolditalic-webfont.woff)
+    url(../fonts/nunito-bolditalic-webfont.woff)
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -10,16 +10,16 @@
 
 @font-face {
   font-family: "nunitobold_italic";
-  src: url(../fonts/webfontkit-20211117-095234/nunito-bolditalic-webfont.woff2) format("woff2"),
-    url(../fonts/webfontkit-20211117-095234/nunito-bolditalic-webfont.woff) format("woff");
+  src: url(../fonts/nunito-bolditalic-webfont.woff2) format("woff2"),
+    url(../fonts/nunito-bolditalic-webfont.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "nunitoregular";
-  src: url(../fonts/webfontkit-20211117-095234/nunito-regular-webfont.woff2) format("woff2"),
-    url(../fonts/webfontkit-20211117-095234/nunito-regular-webfont.woff) format("woff");
+  src: url(../fonts/nunito-regular-webfont.woff2) format("woff2"),
+    url(../fonts/nunito-regular-webfont.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
