@@ -1,6 +1,4 @@
 .khan__book-container {
   margin-top: 68px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }

@@ -4,10 +4,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  -webkit-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
-  font-family: "nunitoregular", sans-serif;
 }
 
 .footer__link:hover {

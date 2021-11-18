@@ -1,8 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
-@import url(../blocks/font/__nunito/_title/font__nunito_title.css);
-@import url(../blocks/font/__nunito/_paragraph/font__nunito_paragraph.css);
-@import url(../blocks/font/__nunito/_subtitle/font__nunito_subtitle.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -68,11 +64,6 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/form/form.css);
-@import url(../blocks/form/__heading/form__heading.css);
-@import url(../blocks/form/__item/form__item.css);
-@import url(../blocks/form/__button/form__button.css);
-@import url(../blocks/form/__box/form__box.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
